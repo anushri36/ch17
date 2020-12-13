@@ -1,0 +1,104 @@
+
+Question 17.1.a
+All last names in 'authors' reverse-alphabetically:
+     last
+0    Wald
+1   Quirk
+2  Deitel
+3  Deitel
+4  Deitel
+
+Question 17.1.b
+All titles in 'titles' alphabetically:
+                              title
+0         Android 6 for Programmers
+1            Android How to Program
+2                  C How to Program
+3                C++ How to Program
+4     Internet & WWW How to Program
+5     Intro to Python for CS and DS
+6               Java How to Program
+7  Visual Basic 2012 How to Program
+8          Visual C# How to Program
+9         Visual C++ How to Program
+
+Question 17.1.c
+For each author, all titles sorted alphabetically:
+        first    last                             title        isbn copyright
+0       Abbey  Deitel     Internet & WWW How to Program  0132151006      2012
+1       Abbey  Deitel  Visual Basic 2012 How to Program  0133406954      2014
+2      Harvey  Deitel         Android 6 for Programmers  0134289366      2016
+3      Harvey  Deitel            Android How to Program  0134444302      2017
+4      Harvey  Deitel                  C How to Program  0133976890      2016
+5      Harvey  Deitel                C++ How to Program  0134448235      2017
+6      Harvey  Deitel     Internet & WWW How to Program  0132151006      2012
+7      Harvey  Deitel     Intro to Python for CS and DS  0135404673      2020
+8      Harvey  Deitel               Java How to Program  0134743350      2018
+9      Harvey  Deitel  Visual Basic 2012 How to Program  0133406954      2014
+10     Harvey  Deitel          Visual C# How to Program  0134601548      2017
+11     Harvey  Deitel         Visual C++ How to Program  0136151574      2008
+12       Paul  Deitel         Android 6 for Programmers  0134289366      2016
+13       Paul  Deitel            Android How to Program  0134444302      2017
+14       Paul  Deitel                  C How to Program  0133976890      2016
+15       Paul  Deitel                C++ How to Program  0134448235      2017
+16       Paul  Deitel     Internet & WWW How to Program  0132151006      2012
+17       Paul  Deitel     Intro to Python for CS and DS  0135404673      2020
+18       Paul  Deitel               Java How to Program  0134743350      2018
+19       Paul  Deitel  Visual Basic 2012 How to Program  0133406954      2014
+20       Paul  Deitel          Visual C# How to Program  0134601548      2017
+21       Paul  Deitel         Visual C++ How to Program  0136151574      2008
+22        Dan   Quirk         Visual C++ How to Program  0136151574      2008
+23  Alexander    Wald         Android 6 for Programmers  0134289366      2016
+
+Question 17.1.d
+Total 'authors' table including new author 'Sue Red':
+   id      first    last
+0   1       Paul  Deitel
+1   2     Harvey  Deitel
+2   3      Abbey  Deitel
+3   4        Dan   Quirk
+4   5  Alexander    Wald
+5   6        Sue     Red
+
+Question 17.1.e
+Total 'titles' table including new title 'Python 101':
+          isbn                             title  edition copyright
+0   0135404673     Intro to Python for CS and DS        1      2020
+1   0132151006     Internet & WWW How to Program        5      2012
+2   0134743350               Java How to Program       11      2018
+3   0133976890                  C How to Program        8      2016
+4   0133406954  Visual Basic 2012 How to Program        6      2014
+5   0134601548          Visual C# How to Program        6      2017
+6   0136151574         Visual C++ How to Program        2      2008
+7   0134448235                C++ How to Program       10      2017
+8   0134444302            Android How to Program        3      2017
+9   0134289366         Android 6 for Programmers        3      2016
+10  7382593059                        Python 101        1      2020
+
+Total 'authors_ISBN' table including new author's id and new title's ISBN:
+    id        isbn
+0    1  0134289366
+1    2  0134289366
+2    5  0134289366
+3    1  0135404673
+4    2  0135404673
+5    1  0132151006
+6    2  0132151006
+7    3  0132151006
+8    1  0134743350
+9    2  0134743350
+10   1  0133976890
+11   2  0133976890
+12   1  0133406954
+13   2  0133406954
+14   3  0133406954
+15   1  0134601548
+16   2  0134601548
+17   1  0136151574
+18   2  0136151574
+19   4  0136151574
+20   1  0134448235
+21   2  0134448235
+22   1  0134444302
+23   2  0134444302
+24   6  7382593059
