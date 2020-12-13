@@ -25,3 +25,5 @@ for each in cursor.description:
 print("\nCursor fetchall method for 'titles' table:")
 for each in cursor.fetchall():
     print(each)
+
+connection.close()
